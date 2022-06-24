@@ -24,17 +24,17 @@ const StackNavigator = () => {
         options={{headerShown: false}}
         component={Login}
       />
-      {/* <Stack.Screen
+       <Stack.Screen
         name="Register"
         options={{headerShown: false}}
         component={Register}
-      /> */}
+      /> 
       <Stack.Screen
         name="Home"
         options={{headerShown: false}}
         component={Home}
       />
-      {/* <Stack.Screen name="지갑불러오기" component={WalletPlus} />
+       <Stack.Screen name="지갑불러오기" component={WalletPlus} />
       <Stack.Screen
         name="Send"
         options={{headerShown: false}}
@@ -72,7 +72,7 @@ const StackNavigator = () => {
         name="BurnAddComplete"
         options={{headerShown: false}}
         component={BurnAddComplete}
-      /> */}
+      />
     </Stack.Navigator>
   );
 };
