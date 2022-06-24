@@ -1,1 +1,7 @@
-# 세번째 작품입니다.
+## 기술스택
+
+> Front-End: React-Native
+
+> Back-End: nodejs
+
+> DataBase: Mysql
